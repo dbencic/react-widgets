@@ -131,7 +131,7 @@
     "webpack": "^1.10.5",
     "webpack-dev-server": "^1.10.1",
     "yargs": "^4.4.0",
-    "loose-envify": "^1.1.0"
+    "loose-envify": "*"
   },
   "browserify": {
     "transform": [
