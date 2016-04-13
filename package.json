@@ -1,6 +1,6 @@
 {
   "name": "react-widgets",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "description": "An à la carte set of polished, extensible, and accessible inputs built for React",
   "main": "lib/index.js",
   "author": {
@@ -67,7 +67,8 @@
     "invariant": "^2.1.0",
     "uncontrollable": "^3.0.2",
     "warning": "^2.0.0",
-    "envify": "^3.0.0"
+    "envify": "^3.0.0",
+    "loose-envify": "^1.1.0"
   },
   "optionalDependencies": {
     "format-number-with-string": "0.0.2",
@@ -130,8 +131,7 @@
     "url-loader": "^0.5.5",
     "webpack": "^1.10.5",
     "webpack-dev-server": "^1.10.1",
-    "yargs": "^4.4.0",
-    "loose-envify": "*"
+    "yargs": "^4.4.0"
   },
   "browserify": {
     "transform": [
